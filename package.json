@@ -1,0 +1,22 @@
+{
+  "name": "ictinus-site",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.4",
+    "lil-gui": "^0.20.0",
+    "p5": "^1.11.2",
+    "pace-js": "^1.2.4",
+    "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "sass": "^x.x.x",
+    "vite": "^x.x.x"
+  }
+}

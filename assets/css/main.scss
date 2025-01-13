@@ -43,6 +43,7 @@ a:hover {
       color:#d82a55;
 }
 
+
 /* Google Map  - hide branding and controls 
 #map .gmnoprint.gm-bundled-control.gm-bundled-control-on-bottom {
         display:none;
@@ -88,6 +89,14 @@ a[href^="http://maps.google.com/maps"] {
     vertical-align: middle;
 }
 
+body.customize-support .navbar-fixed-top {
+    margin-top:32px;
+}
+
+body.customize-support #processing {
+    top: 46px;
+}
+
 .boom{
   border:15px solid #2F2F2F;
   border-bottom:16px solid #2F2F2F;
@@ -110,19 +119,24 @@ a[href^="http://maps.google.com/maps"] {
     background: #333;
     background-size: cover;
     background-position: center;
-    background-image: url('/ictinus/img/data-BG.jpg');
+    background-image: url('../img/data-BG.jpg');
     height:643px;
     width:100%;
 }
 
-canvas#defaultCanvas0{height:643px !important;}
+/*canvas#defaultCanvas0{height:643px !important;}*/
 
-#defaultCanvas1{
-    display:none;
+#ripples{
+    position: relative;
+    width:105%;
+    height:105%;
 }
+
 .container-fluid{
 overflow: hidden;
 }
+
+
 
 .fadein {
     transition: background-color 0.8s ease 0s;
@@ -136,7 +150,7 @@ overflow: hidden;
     transition: background-color 0.8s ease 0s;
      -moz-transition: background-color 0.8s ease 0s;
     -webkit-transition: background-color 0.8s ease 0s;
-    background:rgba(20,20,20,0);  
+    background:rgba(20,20,20,0) !important;  
 }
 
 .introout {
@@ -400,7 +414,7 @@ overflow: hidden;
     margin-top: 50px;
 }
 
-.chris {
+/*.chris {
 background-image: url("/img/chris.png");
 
 }
@@ -436,7 +450,7 @@ background-image: url("/img/ashley.png");
 
 .lucas {
 background-image: url("/img/lucas.png");
-}
+}*/
 
 .bio-text:hover{
      opacity:0.8;
@@ -624,6 +638,10 @@ background-image: url("/img/lucas.png");
     z-index: 1;
 }
 
+.tile-fade {
+    pointer-events: none;
+}
+
 .tile-fade img:nth-child(4){
         opacity: 1;
          -webkit-transition: 0.8s ease-in-out;
@@ -668,6 +686,32 @@ background-image: url("/img/lucas.png");
 .video-block {
     position: absolute;
     width:100%;
+}
+
+
+.stackable-box {
+    position:relative;
+ 
+}
+
+.stackable-content {
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    top: 0px;
+    padding: 1%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.stackable-image {
+    position: absolute;
+    z-index: 99;
+    background-color: transparent !important;
+     pointer-events: none;
 }
 
 .title{
@@ -749,10 +793,10 @@ background-image: url("/img/lucas.png");
 
 @media (min-width: 768px) {
     
-	.brand-strip .vertical-container {
-    	height: 590px;
-   		margin: 30px auto;
-	}
+    .brand-strip .vertical-container {
+        height: 590px;
+        margin: 30px auto;
+    }
 
     .project-slider:hover, .project-strip:hover > .project-slider {
         left:33.5%;
@@ -875,7 +919,7 @@ background-image: url("/img/lucas.png");
 
 @media (min-width: 992px) {
 
-    canvas#defaultCanvas0{height:650px !important;}
+   /* canvas#defaultCanvas0{height:650px !important;}*/
 
     .project-fade:hover  .tile-fade img:nth-child(1){
         opacity: 0;
@@ -990,7 +1034,7 @@ background-image: url("/img/lucas.png");
     }
 
     .map {
-        margin:0px 18px;
+        margin:0px 15px;
     }
 
     .tile-fade .video-wrapper{

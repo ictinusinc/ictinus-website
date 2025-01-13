@@ -1,82 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>:: ictinus | software & graphic design</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="keywords" lang="en-us" content= "digital design practice, graphic design, ictinus, christian desjardins, web"/>
-  <meta name="description" content="ictinus graphic design"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>:: ictinus | software & graphic design</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" lang="en-us" content= "digital design practice, graphic design, ictinus, christian desjardins, web"/>
+    <meta name="description" content="ictinus graphic design"/>
 
-  <meta property="og:url"                content="ictin.us" />
-  <meta property="og:type"               content="website" />
-  <meta property="og:title"              content="Ictinus inc." />
-  <meta property="og:description"        content="We deliver memorable experiences" />
-  <meta property="og:image"              content="img/ictinus-facebook.jpg" />
+    <meta property="og:url"                content="ictin.us" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Ictinus inc." />
+    <meta property="og:description"        content="We deliver memorable experiences" />
+    <meta property="og:image"              content="img/ictinus-facebook.jpg" />
 
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ictinus">
+    <meta name="twitter:creator" content="@ictinus">
+    <meta name="twitter:title" content="Ictinus inc.">
+    <meta name="twitter:description" content="We deliver memorable experiences">
+    <meta name="twitter:image" content="http://ictin.us/assets/img/ictinus-twitter-pie.jpg">
+    
+   <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "url": "http://ictin.us",
+        "logo": "http://ictin.us/img/ictinus_logo.png",
+        "email": "hello@ictin.us",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ottawa",
+          "addressRegion": "ON",
+          "postalCode":"K1N 7E7",
+          "streetAddress": "316 Dalhousie St"
+      },
+        "description": "We deliver memorable experiences",
+        "name": "Ictinus inc.",
+        "telephone": "613 699-7611",
+        "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "45.456256",
+          "longitude": "-75.584463"
+        }
+      }
+    </script>
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@ictinus">
-  <meta name="twitter:creator" content="@ictinus">
-  <meta name="twitter:title" content="Ictinus inc.">
-  <meta name="twitter:description" content="We deliver memorable experiences">
-  <meta name="twitter:image" content="http://ictin.us/ictinus/img/ictinus-twitter-pie.jpg">
-
-  <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "LocalBusiness",
-    "url": "http://ictin.us",
-    "logo": "http://ictin.us/img/ictinus_logo.png",
-    "email": "hello@ictin.us",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Ottawa",
-      "addressRegion": "ON",
-      "postalCode":"K1J9J1",
-      "streetAddress": "1010 Polytek, Unit 17"
-  },
-  "description": "We deliver memorable experiences",
-  "name": "Ictinus inc.",
-  "telephone": "613 699-7611",
-  "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
-  "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "45.456256",
-      "longitude": "-75.584463"
-  }
-}
-</script>
-
-<script type="text/javascript" src="http://use.typekit.com/jhw0did.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.2/p5.js"></script>
-    <script type="text/javascript" src="ictinus/js/boids.js"></script> -->
-<script type="text/javascript" src="ictinus/js/main.js"></script>
+      <script type="text/javascript" src="http://use.typekit.com/jhw0did.js"></script>
+      <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 
-<!-- Style -->
-<link href="ictinus/css/bootstrap.min.css" rel="stylesheet">
-<link href="ictinus/css/ictinus.css" rel="stylesheet">
+      <script type="module" src="assets/js/main.js"></script>
 
-<link href="ictinus/css/aos.css" rel="stylesheet">
-<script src="ictinus/js/aos.js"></script>
-<script src="ictinus/js/pace.js"></script>
+      <script>
+        window.onload = function() {
+            AOS.init({
+            duration: 1000,
+            once: 'true',
+          })
+        }
+      </script>
 
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112268162-1"></script>
 <script>
-window.onload = function() {
-    AOS.init({
-        duration: 1000,
-        once: 'true',
-    })
-}
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112268162-1');
 </script>
-
-
 
 </head>
 
@@ -90,7 +86,7 @@ window.onload = function() {
 
           <!-- Logo section !-->
           <nav id="navbar" class="navbar navbar-fixed-top">
-              <a href="/"><div id="logo"><img src="ictinus/img/ictinus_logo.png" alt="Ictinus Inc"/></div></a>
+              <a href="/"><div id="logo"><img src="assets/img/ictinus_logo.png" alt="Ictinus Inc"/></div></a>
           </nav>
 
 
@@ -134,13 +130,13 @@ window.onload = function() {
            <div class="col-md-8 project-data__portfolio" data-aos="fade-up" data-aos-delay="100">
                 <div class="video-wrapper__data">
                     <video class="video-block" width="400" loop autoplay>
-                    <source src="ictinus/projects/pressprogress-logo.mov" type="video/mp4">
+                    <source src="assets/projects/pressprogress-logo.mov" type="video/mp4">
                     Your browser does not support HTML5 video.
                     </video>    
                 </div>
             </div> -->
             <div class="col-md-8 project-data__portfolio" data-aos="fade-up" data-aos-delay="100">
-                <img class="data__image" src="ictinus/projects/UAKN.jpg" alt="Visualizing Canada's Urban Aboriginal Population"/>
+                <img class="data__image" src="assets/projects/UAKN.jpg" alt="Visualizing Canada's Urban Aboriginal Population"/>
             </div>
 
              <div class="col-sm-11 visible-sm visible-xs project-mobile-text" data-aos="fade-up"> 
@@ -154,8 +150,8 @@ window.onload = function() {
 <!-- UOIT DCP -->
 <div class="row project-strip">
         <div class="project-fade">
-            <div class="col-md-4 col-sm-6 project" data-aos="fade-up"> <img class="data-double"  src="ictinus/projects/data-DCP-1.jpg" alt="UOIT DCP Graph"/> </div>
-            <div class="col-md-4 col-sm-6 project" data-aos="fade-up" data-aos-delay="100" > <img class="data-double" src="ictinus/projects/data-DCP-2.jpg" alt="UOIT DCP Competencies Graph"/> </div>
+            <div class="col-md-4 col-sm-6 project" data-aos="fade-up"> <img class="data-double"  src="assets/projects/data-DCP-1.jpg" alt="UOIT DCP Graph"/> </div>
+            <div class="col-md-4 col-sm-6 project" data-aos="fade-up" data-aos-delay="100" > <img class="data-double" src="assets/projects/data-DCP-2.jpg" alt="UOIT DCP Competencies Graph"/> </div>
             
             <div class="col-md-4 project-data hidden-sm hidden-xs" data-aos="fade-up">
                 <div class="project-data__box project-data__box--right">
@@ -187,7 +183,7 @@ window.onload = function() {
         </div>
 
         <div class="col-md-8 project-data__portfolio" data-aos="fade-up" data-aos-delay="100">
-            <img class="data__image" src="ictinus/projects/data-nafc.jpg" alt="Connection Visualization for NAFC Summit"/>
+            <img class="data__image" src="assets/projects/data-nafc.jpg" alt="Connection Visualization for NAFC Summit"/>
         </div>
 
         <div class="col-sm-11 visible-sm visible-xs project-mobile-text" data-aos="fade-up"> 
@@ -201,8 +197,8 @@ window.onload = function() {
 <!-- IEML GLOBE -->
 <div class="row project-strip">
     <div class="project-fade">
-            <div class="col-md-4 col-sm-6 project" data-aos="fade-up"> <img class="data-double" src="ictinus/projects/data-ieml-1.jpg" alt="IEML Semantic Sphere "/> </div>
-            <div class="col-md-4 col-sm-6 project" data-aos="fade-up" data-aos-delay="100"> <img class="data-double" src="ictinus/projects/data-ieml-2.jpg" alt="IEML Semantic Sphere"/> </div>
+            <div class="col-md-4 col-sm-6 project" data-aos="fade-up"> <img class="data-double" src="assets/projects/data-ieml-1.jpg" alt="IEML Semantic Sphere "/> </div>
+            <div class="col-md-4 col-sm-6 project" data-aos="fade-up" data-aos-delay="100"> <img class="data-double" src="assets/projects/data-ieml-2.jpg" alt="IEML Semantic Sphere"/> </div>
             <div class="col-md-4 project-data hidden-sm hidden-xs" data-aos="fade-up" data-aos-delay="200">
                     <div class="project-data__box project-data__box--right">
                         <div class="project-text-box">
@@ -234,7 +230,7 @@ window.onload = function() {
 
             <div class="col-md-8 project-data__portfolio" data-aos="fade-up" data-aos-delay="100">
                 
-                    <img class="data__image" src="ictinus/projects/data-snapclarity.jpg" alt="Snapclarity Infographic"/>
+                    <img class="data__image" src="assets/projects/data-snapclarity.jpg" alt="Snapclarity Infographic"/>
           
             </div>
 
@@ -247,59 +243,73 @@ window.onload = function() {
 
 </div> 
 
-<!-- <div class="row project-strip">
+<div class="row title-team">
+      <h2> we've worked with </h2>
+         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 client-logos">
+          <img class="tile-small" src="assets/img/decibel_logo.png" alt="Decibel Logo"/>
+         </div>
+         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 client-logos">
+            <img class="tile-small" src="assets/img/nac_logo.png" alt=" NAC Logo"/>
+         </div>
+         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 client-logos">
+            <img class="tile-small" src="assets/img/concordia_logo.png" alt="Concordia Logo"/>
+         </div>
+         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 client-logos">
+           <img class="tile-small" src="assets/img/UoO_logo.png" alt="University of Ottawa Logo"/>
+         </div>
+         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 client-logos">
+            <img class="tile-small" src="assets/img/mediastyle_logo_wt.png" alt="Mediastyle Logo"/>
+         </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 client-logos">
+            <img class="tile-small" src="assets/img/beacon_logo.png" alt="Beaconlite Logo"/>
+         </div>
 
-            <div class="col-sm-11 visible-sm visible-xs project-mobile-text" data-aos="fade-up"> 
-                <b> Decibel Festival  </b> was an electronic music and digital arts festival started in 2004 in Seattle with over 23,000 annual attendees. It comprises concerts, performances, commissioned work, film screenings and exhibitions. The festival has hosted artists such as Erykah Badu, Orbital, DJ Shadow, Moby, Deadmau5, and many more.
-                
-            </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 client-logos" >
+             <img class="tile-small" src="assets/img/telesat_logo.png" alt="Telesat Logo"/>
+            
+         </div>
+         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 client-logos" >
+            <img class="tile-small" src="assets/img/vandal_logo.png" alt="Vandal Logo"/>
+         </div>
+         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 client-logos">
+            <img class="tile-small" src="assets/img/terrace_logo.png" alt="Terrace Logo"/>
+         </div>
+         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 client-logos">
+            <img class="tile-small" src="assets/img/gov_logo.png" alt="Governer general awards"/>
+         </div>
+         <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 client-logos">
+            <img class="tile-small" src="assets/img/irpp_logo.png" alt="IRPP Logo"/>
+         </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 client-logos">
+            <img class="tile-small" src="assets/img/broadbent_logo.png" alt="Broadbent institute Logo"/>
+         </div>
 
-            <div class="col-md-8 project-data__portfolio">
-                
-                    <img class="data__image" src="ictinus/projects/test.jpg"/>
-          
-            </div>
+</div>
 
-              <div class="col-md-4 project-data hidden-sm hidden-xs" data-aos="fade-up">
-                    <div class="project-data__box">
-                            <div class="project-text-box">
-                                    <span class="lead-name"> Decibel Festival </span> was an electronic music and digital arts festival started in 2004 in Seattle with over 23,000 annual attendees. It comprises concerts, performances, commissioned work, film screenings and exhibitions. The festival has hosted artists such as Erykah Badu, Orbital, DJ Shadow, Moby, Deadmau5, and many more.
-
-                            </div>
-                    </div>
-            </div>
-
-</div> -->
-
-
-
+ 
 <!--FOOTER-->
 
 <div class="row">
- <div class="pink-footer">
-     <div class="footer contact-info">
-        <h2>DROP BY AND SAY HI!</h2>
+   <div class="pink-footer">
+   <div class="footer contact-info">
+            <h2>DROP BY AND SAY HI!</h2>
 
-        <p class="address">
-            <a class="location" href="https://goo.gl/maps/EnFfJ">
+            <p class="address">
+            <a class="location" target="_blank" href="https://goo.gl/maps/Ajf5tMfaqN82">
                 1010 Polytek - Unit 17<br>
                 Ottawa, Ontario K1J 9J1<br> Canada
             </a>
-        </p>
+            </p>
 
-        <p class="contact">
-          <a href="tel:+1.613.699.7611">+1.613.699.7611</a><br>
-          <a href="mailto:hello@ictin.us">hello@ictin.us</a><br>
-          <a href="http://www.twitter.com/ictinus">@ictinus</a>
-      </p>
-     <!--
-                <p class="partners"> We work with<br>
-                <a href="http://mediastyle.ca/" target="_blank" > <img src="/mediastyle_logo.png"/></a></p>
-            -->
-        </div>
-    </div>
+            <p class="contact">
+                  <!--<a href="tel:+1.613.699.7611">+1.613.699.7611</a><br> !-->
+                  <a href="mailto:hello@ictin.us">hello@ictin.us</a><br>
+                  <a href="http://www.twitter.com/ictinus">@ictinus</a>
+            </p>
+   </div>
+   </div>
 
-    <div id="map" class="map"></div>
+     <div id="map" class="map"></div>
     
 </div>
 
@@ -308,12 +318,12 @@ window.onload = function() {
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="ictinus/js/bootstrap.min.js"></script>
+
 <!-- Googles Analyticses-->
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-48876403-1', 'auto');
@@ -324,299 +334,299 @@ ga('send', 'pageview');
 <script>
 
 
-function initMap() {
+      function initMap() {
         // Styles a map in night mode.
-        var uluru = {lat: 45.4562725, lng: -75.5865341};
+      var uluru = {lat: 45.4562725, lng: -75.5865341};
         var map = new google.maps.Map(document.getElementById('map'), {
             center: new google.maps.LatLng(45.45792730, -75.5878395),
             zoom: 16,
             scrollwheel: false,
-            mapTypeControl: false,
-            styles: [
-            {
-               elementType: 'geometry',
-               stylers: [
+             mapTypeControl: false,
+          styles: [
+           {
+             elementType: 'geometry',
+             stylers: [
                {
-                   color: '#f5f5f5'
+                 color: '#f5f5f5'
                }
-               ]
+             ]
            },
            {
-               elementType: 'geometry.fill',
-               stylers: [
+             elementType: 'geometry.fill',
+             stylers: [
                {
-                   color: '#d82a55'
+                 color: '#d82a55'
                }
-               ]
+             ]
            },
            {
-               elementType: 'geometry.stroke',
-               stylers: [
+             elementType: 'geometry.stroke',
+             stylers: [
                {
-                   lightness: -65
+                 lightness: -65
                },
                {
-                   weight: 3
+                 weight: 3
                }
-               ]
+             ]
            },
            {
-               elementType: 'labels',
-               stylers: [
+             elementType: 'labels',
+             stylers: [
                {
-                   visibility: 'off'
+                 visibility: 'off'
                }
-               ]
+             ]
            },
            {
-               elementType: 'labels.icon',
-               stylers: [
+             elementType: 'labels.icon',
+             stylers: [
                {
-                   visibility: 'off'
+                 visibility: 'off'
                }
-               ]
+             ]
            },
            {
-               elementType: 'labels.text.fill',
-               stylers: [
+             elementType: 'labels.text.fill',
+             stylers: [
                {
-                   color: '#616161'
+                 color: '#616161'
                }
-               ]
+             ]
            },
            {
-               elementType: 'labels.text.stroke',
-               stylers: [
+             elementType: 'labels.text.stroke',
+             stylers: [
                {
-                   color: '#f5f5f5'
+                 color: '#f5f5f5'
                }
-               ]
+             ]
            },
            {
-               featureType: 'administrative',
-               elementType: 'geometry',
-               stylers: [
+             featureType: 'administrative',
+             elementType: 'geometry',
+             stylers: [
                {
-                   visibility: 'off'
+                 visibility: 'off'
                }
-               ]
+             ]
            },
            {
-               featureType: 'administrative.land_parcel',
-               stylers: [
+             featureType: 'administrative.land_parcel',
+             stylers: [
                {
-                   visibility: 'off'
+                 visibility: 'off'
                }
-               ]
+             ]
            },
            {
-               featureType: 'administrative.land_parcel',
-               elementType: 'labels.text.fill',
-               stylers: [
+             featureType: 'administrative.land_parcel',
+             elementType: 'labels.text.fill',
+             stylers: [
                {
-                   color: '#bdbdbd'
+                 color: '#bdbdbd'
                }
-               ]
+             ]
            },
            {
-               featureType: 'administrative.neighborhood',
-               stylers: [
+             featureType: 'administrative.neighborhood',
+             stylers: [
                {
-                   visibility: 'off'
+                 visibility: 'off'
                }
-               ]
+             ]
            },
            {
-               featureType: 'poi',
-               stylers: [
+             featureType: 'poi',
+             stylers: [
                {
-                   visibility: 'off'
+                 visibility: 'off'
                }
-               ]
+             ]
            },
            {
-               featureType: 'poi',
-               elementType: 'geometry',
-               stylers: [
+             featureType: 'poi',
+             elementType: 'geometry',
+             stylers: [
                {
-                   color: '#eeeeee'
+                 color: '#eeeeee'
                }
-               ]
+             ]
            },
            {
-               featureType: 'poi',
-               elementType: 'labels.text.fill',
-               stylers: [
+             featureType: 'poi',
+             elementType: 'labels.text.fill',
+             stylers: [
                {
-                   color: '#757575'
+                 color: '#757575'
                }
-               ]
+             ]
            },
            {
-               featureType: 'poi.park',
-               elementType: 'geometry',
-               stylers: [
+             featureType: 'poi.park',
+             elementType: 'geometry',
+             stylers: [
                {
-                   color: '#e5e5e5'
+                 color: '#e5e5e5'
                }
-               ]
+             ]
            },
            {
-               featureType: 'poi.park',
-               elementType: 'labels.text.fill',
-               stylers: [
+             featureType: 'poi.park',
+             elementType: 'labels.text.fill',
+             stylers: [
                {
-                   color: '#9e9e9e'
+                 color: '#9e9e9e'
                }
-               ]
+             ]
            },
            {
-               featureType: 'road',
-               elementType: 'geometry',
-               stylers: [
+             featureType: 'road',
+             elementType: 'geometry',
+             stylers: [
                {
-                   color: '#dd5778'
+                 color: '#dd5778'
                }
-               ]
+             ]
            },
            {
-               featureType: 'road',
-               elementType: 'labels.icon',
-               stylers: [
+             featureType: 'road',
+             elementType: 'labels.icon',
+             stylers: [
                {
-                   visibility: 'off'
+                 visibility: 'off'
                }
-               ]
+             ]
            },
            {
-               featureType: 'road.arterial',
-               elementType: 'labels.text.fill',
-               stylers: [
+             featureType: 'road.arterial',
+             elementType: 'labels.text.fill',
+             stylers: [
                {
-                   color: '#757575'
+                 color: '#757575'
                }
-               ]
+             ]
            },
            {
-               featureType: 'road.highway',
-               elementType: 'geometry',
-               stylers: [
+             featureType: 'road.highway',
+             elementType: 'geometry',
+             stylers: [
                {
-                   color: '#dadada'
+                 color: '#dadada'
                }
-               ]
+             ]
            },
            {
-               featureType: 'road.highway',
-               elementType: 'geometry.fill',
-               stylers: [
+             featureType: 'road.highway',
+             elementType: 'geometry.fill',
+             stylers: [
                {
-                   color: '#dd5778'
+                 color: '#dd5778'
                }
-               ]
+             ]
            },
            {
-               featureType: 'road.highway',
-               elementType: 'geometry.stroke',
-               stylers: [
+             featureType: 'road.highway',
+             elementType: 'geometry.stroke',
+             stylers: [
                {
-                   color: '#dd5778'
+                 color: '#dd5778'
                }
-               ]
+             ]
            },
            {
-               featureType: 'road.highway',
-               elementType: 'labels.text.fill',
-               stylers: [
+             featureType: 'road.highway',
+             elementType: 'labels.text.fill',
+             stylers: [
                {
-                   color: '#616161'
+                 color: '#616161'
                }
-               ]
+             ]
            },
            {
-               featureType: 'road.local',
-               elementType: 'labels.text.fill',
-               stylers: [
+             featureType: 'road.local',
+             elementType: 'labels.text.fill',
+             stylers: [
                {
-                   color: '#9e9e9e'
+                 color: '#9e9e9e'
                }
-               ]
+             ]
            },
            {
-               featureType: 'transit',
-               stylers: [
+             featureType: 'transit',
+             stylers: [
                {
-                   visibility: 'off'
+                 visibility: 'off'
                }
-               ]
+             ]
            },
            {
-               featureType: 'transit.line',
-               elementType: 'geometry',
-               stylers: [
+             featureType: 'transit.line',
+             elementType: 'geometry',
+             stylers: [
                {
-                   color: '#e5e5e5'
+                 color: '#e5e5e5'
                }
-               ]
+             ]
            },
            {
-               featureType: 'transit.station',
-               elementType: 'geometry',
-               stylers: [
+             featureType: 'transit.station',
+             elementType: 'geometry',
+             stylers: [
                {
-                   color: '#eeeeee'
+                 color: '#eeeeee'
                }
-               ]
+             ]
            },
            {
-               featureType: 'water',
-               elementType: 'geometry',
-               stylers: [
+             featureType: 'water',
+             elementType: 'geometry',
+             stylers: [
                {
-                   color: '#c9c9c9'
+                 color: '#c9c9c9'
                }
-               ]
+             ]
            },
            {
-               featureType: 'water',
-               elementType: 'geometry.fill',
-               stylers: [
+             featureType: 'water',
+             elementType: 'geometry.fill',
+             stylers: [
                {
-                   color: '#ea8ea5'
+                 color: '#ea8ea5'
                }
-               ]
+             ]
            },
            {
-               featureType: 'water',
-               elementType: 'labels.text.fill',
-               stylers: [
+             featureType: 'water',
+             elementType: 'labels.text.fill',
+             stylers: [
                {
-                   color: '#9e9e9e'
+                 color: '#9e9e9e'
                }
-               ]
+             ]
            }
-           ]
-       });
+         ]
+        });
 
-var image = {
+      var image = {
           url: "img/map-icon.png", // url
           scaledSize: new google.maps.Size(40, 60), // scaled size
       };
       var marker = new google.maps.Marker({
           position: uluru,
           map: map,
-          icon: image,
-          url: "https://goo.gl/maps/EnFfJ"
-      });
+           icon: image,
+            url: "https://goo.gl/maps/Ajf5tMfaqN82"
+        });
 
       google.maps.event.addListener(marker, 'click', function() {
-        window.open(marker.url);
-    });
+                window.open(marker.url);
+            });
       
-  }
-  </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYXfkx3oOZoWn-YNkEgqX5VJEerDnKz10&libraries=places&callback=initMap"
-  async defer></script>
-</div>
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYXfkx3oOZoWn-YNkEgqX5VJEerDnKz10&libraries=places&callback=initMap"
+    async defer></script>
+  </div>
 </body>
 </html>
